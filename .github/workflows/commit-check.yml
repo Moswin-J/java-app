@@ -14,3 +14,4 @@ jobs:
             echo "❌ Commit message must start with 'feat:', 'fix:', 'docs:', or 'chore:'"
             exit 1
           fi
+          
