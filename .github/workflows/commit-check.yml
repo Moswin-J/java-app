@@ -6,6 +6,9 @@ jobs:
   check-message:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4 
+        
       - name: Validate commit message
         run: |
           if [[ "$(git log -1 --pretty=%B)" =~ ^(feat|fix|docs|chore): ]]; then
