@@ -1,4 +1,4 @@
-name: Deploy /src to EC2.
+name: Deploy /src to EC2
 
 on:
   push:
